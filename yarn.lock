@@ -408,6 +408,10 @@
   version "1.0.0"
   resolved "file:packages/configs"
 
+"@repo/db@file:E:\\Projects\\paytm\\packages\\db":
+  version "1.0.0"
+  resolved "file:packages/db"
+
 "@repo/eslint-config@*", "@repo/eslint-config@file:E:\\Projects\\paytm\\packages\\eslint-config":
   version "0.0.0"
   resolved "file:packages/eslint-config"
@@ -4698,6 +4702,7 @@ wcwidth@^1.0.1:
   version "1.0.0"
   resolved "file:apps/user-app"
   dependencies:
+    "@repo/configs" "*"
     "@repo/ui" "*"
     next "^14.1.1"
     react "^18.2.0"
